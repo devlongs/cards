@@ -1,5 +1,10 @@
 package main
 
-func main(){
-	
+func main() {
+	cards := newDeck()
+
+	cards.print()
+
 }
+
+
